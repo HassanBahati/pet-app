@@ -1,18 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Goodpet | Rescued pets that need a home</title>
-    <link rel="stylesheet" href='css/bootstrap.css' />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-    <div w3-include-html='includes/navbar.html'></div>
- 
-    <div w3-include-html='includes/footer.html'></div>
+  </head>
+  <body>
+    <div w3-include-html="includes/navbar.html"></div>
+
+    <section class="container py-4">
+      <h1 class="mb-2">Pets that need a home</h1>
+
+      <div class="row">
+        <div class="col-md mb-3">
+          <div class="card">
+            <img src="images/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md mb-3">
+          <div class="card">
+            <img src="images/2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md mb-3">
+          <div class="card">
+            <img src="images/3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md mb-3">
+          <div class="card">
+            <img src="images/4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md mb-3">
+          <div class="card">
+            <img src="images/5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md mb-3">
+          <div class="card">
+            <img src="images/6.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4 mb-4 bg-light border-top border-bottom">
+      <div class="container">
+        <h2 class="h1">Happy Clients</h2>
+        <div class="row align-items-center mt-4">
+          <div class="col-md-3 d-flex justify-content-center">
+            <img
+              src="images/bahati.jpg"
+              class="rounded-circle img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <h4>bahati</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+              dolores temporibus, qui voluptate exercitationem vero corporis
+              numquam voluptates laboriosam magni sapiente aliquam iusto
+              excepturi facere tenetur animi eius officiis amet.
+            </p>
+          </div>
+        </div>
+        <div class="row align-items-center mt-4">
+          <div class="col-md-3 d-flex justify-content-center">
+            <img
+              src="images/hassan.jpg"
+              class="rounded-circle img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <h4>hassan</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+              dolores temporibus, qui voluptate exercitationem vero corporis
+              numquam voluptates laboriosam magni sapiente aliquam iusto
+              excepturi facere tenetur animi eius officiis amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-4">
+      <h2 class="h1 mb-4">Thinking about pets?</h2>
+      <p>Fill in the form below to recieve information on our pets</p>
+      <form action="" method="get">
+        <div class="row">
+          <div class="col-md form-group">
+            <label for="fullName">Full Name</label>
+            <input
+              type="text"
+              name="fullName"
+              id="fullName"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="col-md form-group">
+            <label for="fullName">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="fullName"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message" class="form-control"
+            >Tell us why you need a pet</label
+          >
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            name="message"
+            required
+          ></textarea>
+        </div>
+        <button type="button" class="btn btn-primary mt-2">Submit</button>
+      </form>
+    </section>
+
+    <div w3-include-html="includes/footer.html"></div>
 
     <script src="js/bootstrap.js"></script>
     <script src="js/includes.js"></script>
-</body>
-</html> 
+  </body>
+</html>
